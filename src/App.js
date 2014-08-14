@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { CardList } from './components/card-list/card-list.component';
+import { SearchField } from './components/search-field/search-field.component';
 
 class App extends React.Component {
   constructor(){
@@ -27,7 +28,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <h1>Monsters Rolodex</h1>
-        <input name='search' type='text' onChange={this.handleChange}/>
+        <SearchField handleChange={this.handleChange} />
         <CardList monsters = {filteredMonsters}/>
       </div>
     );
