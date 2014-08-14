@@ -2,6 +2,9 @@
 
 The completed version of our monsters rolodex project!
 
+## Checkout the App URL on the static site
+
+URL: https://arjunuvladimer.github.io/monsters-rollodex/
 
 ## Available Scripts
 
